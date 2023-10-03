@@ -1,0 +1,27 @@
+
+@import "./reset.css";
+
+
+/* index : main 페이지 */
+@import "./index/wrap1.css";
+@import "./index/wrap2.css";
+
+/* join : 로그인, 회원가입 */
+@import "./join/login.css";
+@import "./join/join.css";
+
+/* component */
+@import "./components/header.css";
+@import "./components/search_bar.css";
+@import "./components/footer.css";
+@import "./components/choi_bar.css";
+
+/* 페이지 설정 */
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
