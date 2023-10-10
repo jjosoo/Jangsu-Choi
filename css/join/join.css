@@ -10,6 +10,7 @@
     width: 35%;
     height: 70%;
 
+    box-sizing: border-box;
     /* background-color: teal; */
 }
 
@@ -59,9 +60,19 @@
     align-items: center;
 }
 
+.joinBox__main{
+    width: 100%;
+    height: 40%;
+}
+
+.joinBox__main-join{
+    width: 100%;
+    height: 100%;
+}
+
 .joinBox__join{
     width: 100%;
-    height: 10%;
+    height: 25%;
     background-color: orange;
 }
 .joinBox__join-link{
@@ -74,7 +85,25 @@
 
 .joinBox__sns{
     width: 100%;
-    height: 20%;
-    background-color: yellow;
+    height: 35%;
     margin-top: 20px;
+    background-color: yellow;
 }
+
+.joinBox__company{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+    .joinBox__company-number{
+        width: 100%;
+        height: 25%;
+        background-color: tomato;
+    }
+    .joinBox__company-name{
+        width: 100%;
+        height: 25%;
+        background-color: yellow;
+        margin-bottom: 5%;
+    }

@@ -48,18 +48,24 @@
     height: 100%;
 
     background-color: rgb(212, 212, 212);
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.loginBox__form{
+.loginBox__main{
     width: 100%;
     height: 70%;
     margin-top: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.loginBox__form{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
 
     display: flex;
     flex-direction: column;
@@ -101,3 +107,41 @@
     justify-content: center;
     align-items: center;
 }
+
+.loginBox__form_no{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .loginBox__form_no-name{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20px;
+        background-color: tomato;
+    }
+
+    .loginBox__form_no-email{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20px;
+        background-color: orange;
+    }
+
+    .loginBox__form_no-password{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20px;
+        background-color: yellow;
+    }
+    .loginBox__form_no-check{
+        width: 80%;
+        height: 10%;
+        margin-bottom: 20px;
+        background-color: green;
+    }

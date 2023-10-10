@@ -3,12 +3,15 @@
 
 
 /* index : main 페이지 */
-@import "./index/wrap1.css";
-@import "./index/wrap2.css";
+@import "./index/welcome.css";
+@import "./index/product.css";
 
 /* join : 로그인, 회원가입 */
 @import "./join/login.css";
 @import "./join/join.css";
+
+/* food : 추천음식 */
+@import "./food/select.css";
 
 /* component */
 @import "./components/header.css";
