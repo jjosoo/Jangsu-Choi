@@ -21,9 +21,3 @@
   grid-auto-columns : 1fr;
   grid-auto-flow: row;
 }
-
-.SaleProduct__product{
-  width: 80%;
-  height: 80%;
-  background-color: white;
-}
