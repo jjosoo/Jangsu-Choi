@@ -1,0 +1,29 @@
+.SaleProduct{
+  width: 90%;
+  height: 80%;
+
+  position: relative;
+  top: 12%;
+  box-sizing: border-box;
+
+  /* 크기 확인용 */
+  background-color: teal;
+}
+.SaleProduct__main{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,1fr);
+
+  /* 데이터 추가될경우 알아서 그리드 생성 */
+  grid-auto-rows : 1fr;
+  grid-auto-columns : 1fr;
+  grid-auto-flow: row;
+}
+
+.SaleProduct__product{
+  width: 80%;
+  height: 80%;
+  background-color: white;
+}

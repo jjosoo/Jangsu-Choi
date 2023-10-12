@@ -19,7 +19,7 @@
     width: 100%;
     height: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .mainProduct__product-items{
     width: 300px;

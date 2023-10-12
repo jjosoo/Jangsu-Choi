@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>우리동네 최장수</title>
 </head>
+
 <body>
     <div class="wrap">
         <!-- header : logo & nav -->
@@ -17,25 +18,132 @@
             </div>
 
             <div class="header__nav">
-            <ul class="header__nav-menu">
-                <li><a href="#">운동 찾기</a></li>
-                <li><a href="#">챌린지</a></li>
-                <li><a href="food.html">추천 음식</a></li>
-                <li><a href="#">고객문의</a></li>
-                <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
+                <ul class="header__nav-menu">
+                    <li><a href="index.html">운동 찾기</a></li>
+                    <li><a href="#">챌린지</a></li>
+                    <li><a href="food.html">추천 음식</a></li>
+                    <li><a href="cs.html">고객문의</a></li>
+                    <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
             </div>
         </div>
       <!-- header : logo & nav -->
 
-      <!--환영글 -->
+      <!-- 식단 선택 질문 -->
       <div class="question">
-        <p class="question__text">장수 마을에 오신것을 환영합니다.</p>
-        <p class="question__text">마을 이장 최장수가</p>
+        <p class="question__text">어떤 식단으로 관리하고 싶으세요?</p>
+        <p class="question__text">건강 목표에 맞는 식단을 골라주세요</p>
       </div>
-      <!--환영글 -->
+      <!-- 식단 선택 질문 -->
+
+      <!-- 선택 -->
+      <div class="select__box">
+        <button class="select__box-main">
+            <div class="select__box-title">근력 운동</div>
+            <div class="select__box-text">
+                <p>근육량을 늘리고</p>
+                <p>운동 능력을 높이는데 </p>
+                <p>도움이 되는 식단</p>
+            </div>
+        </button>
+
+        <button class="select__box-main">
+            <div class="select__box-title">체지방 감소</div>
+            <div class="select__box-text">
+                <p>체지방 감소를</p>
+                <p>최우선으로 두고</p>
+                <p>건강한 다이어트를</p>
+                <p>도와주는 식단</p>
+            </div>
+        </button>
+
+        <button class="select__box-main">
+            <div class="select__box-title">키토</div>
+            <div class="select__box-text">
+                <p>탄수화물을 적게 먹고</p>
+                <p>지방을 많이 먹는</p>
+                <p>저탄고지 식단</p>
+            </div>
+        </button>
+
+        <button class="select__box-main">
+            <div class="select__box-title">일반 건강</div>
+            <div class="select__box-text">
+                <p>특별한 관리가</p>
+                <p>필요하지 않은</p>
+                <p>건강한 사람에게</p>
+                <p>적합한 식단</p>
+            </div>
+        </button>
+      </div>
+      <!-- 선택 -->
     </div>
+
+    <div class="wrap sortBox_position">
+
+        <!-- 상품 정렬 -->
+        <div class="sortBox">
+            <ul class="sortBox__title">
+                <li class="sortBox__text">
+                    <button type="button">리뷰순</button>
+                </li>
+
+                <li class="sortBox__text">
+                    <button type="button">평점순</button>
+                </li>
+
+                <li class="sortBox__text">
+                    <button type="button">낮은 가격순</button>
+                </li>
+
+                <li class="sortBox__text">
+                    <button type="button">높은 가격순</button>
+                </li>
+            </ul>
+        </div>
+        <!-- 상품 정렬 -->
+
+        <div class="SaleProduct">
+            <ul class="SaleProduct__main">
+                <li class="SaleProduct__contents">
+                    <div class="SaleProduct__product">
+                        <a href="#" class="SaleProduct__product-link">
+                            <div class="SaleProduct__product-items">
+                              <div class="SaleProduct__product-items__img">
+                                <img src="" alt="SaleProuct">
+                              </div>
+                    
+                              <div class="SaleProduct__product-items__name">
+                                <div class="SaleProduct__product-items__name-text"></div>
+                                <div class="SaleProduct__product-items__name-like"></div>
+                              </div>
+                    
+                              <div class="SaleProduct__product-items__price">
+                                <!-- 총가격 -->
+                                <div class="SaleProduct__product-items__price-total"></div>
+                                <!-- 할인전 가격 -->
+                                <div class="SaleProduct__product-items__price-discount"></div>
+                                <!-- 할인 퍼센트 -->
+                                <div class="SaleProduct__product-items__price-discount-per"></div>
+                              </div>
+                    
+                              <div class="SaleProduct__product-items__desc">
+                                <!-- 평점 -->
+                                <div class="SaleProduct__product-items__desc-score"></div>
+                                <!-- 리뷰 -->
+                                <div class="SaleProduct__product-items__desc-review"></div>
+                              </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
     <div class="footer">
         <div class="footer__contents">
