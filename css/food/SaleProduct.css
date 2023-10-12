@@ -1,11 +1,9 @@
 .SaleProduct{
   width: 90%;
-  height: 80%;
+  height: 75%;
 
   position: relative;
   top: 12%;
-  box-sizing: border-box;
-
   /* 크기 확인용 */
   background-color: teal;
 }
@@ -16,8 +14,47 @@
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: repeat(2,1fr);
 
+  grid-row-gap: 10px;
+  grid-column-gap: 90px; 
+
+  /* cotents 중앙배치 */
+  align-items: center;
+  justify-content: center;
+
   /* 데이터 추가될경우 알아서 그리드 생성 */
   grid-auto-rows : 1fr;
   grid-auto-columns : 1fr;
   grid-auto-flow: row;
+}
+
+.SaleProduct__contents{
+  width: 100%;
+  height: 90%;
+}
+.SaleProduct__product-items{
+  width: 100%;
+  height:100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.SaleProduct__product-items__img{
+  width: 100%;
+  height: 70%;
+  background-color: yellow;
+}
+.SaleProduct__product-items__name{
+  width: 100%;
+  height: 10%;
+  background-color: orange;
+}
+.SaleProduct__product-items__price{
+  width: 100%;
+  height: 10%;
+  background-color: blue;
+}
+.SaleProduct__product-items__desc{
+  width: 100%;
+  height: 10%;
+  background-color: green;
 }
