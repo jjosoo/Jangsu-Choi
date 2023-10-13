@@ -37,13 +37,13 @@
   /* 크기확인용 */
   /* background-color: teal; */
 
-  font-size: 40px;
+  font-size: 200%;
   /* 가운데 정렬 */
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin-bottom: -80px;
+  margin-bottom: -30%;
 }
 
 .select__box-text{
@@ -53,10 +53,13 @@
   /* 크기확인용 */
   /* background-color: tomato; */
   
-  font-size: 25px;
+  font-size: 130%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.select__box-text p {
+  margin-bottom: 2px;
 }
