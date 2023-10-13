@@ -1,3 +1,8 @@
+.food_wrap{
+  width: 100%;
+  height: auto;
+}
+
 .sortBox_position{
   display: flex;
   flex-direction: column;
