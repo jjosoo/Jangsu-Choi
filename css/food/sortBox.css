@@ -6,7 +6,7 @@
 
 .sortBox{
   width: 90%;
-  height: 5%;
+  height: 10%;
 
   position: relative;
   top: 10%;
@@ -22,11 +22,11 @@
   display: flex;
 }
 .sortBox__text{
-  margin-left: 40px;
+  margin-left: 50px;
 }
 .sortBox__text >button{
   background-color: white;
-  padding: 8px 20px;
+  padding: 10px 20px;
   border-radius: 20px;
   border: 1px solid #E6DBDB;
 }
