@@ -1,7 +1,6 @@
 
 @import "./reset.css";
 
-
 /* index : main 페이지 */
 @import "./index/welcome.css";
 @import "./index/product.css";
@@ -15,6 +14,11 @@
 @import "./food/select.css";
 @import "./food/sortBox.css";
 @import "./food/SaleProduct.css";
+
+/* myPage : 마이페이지 */
+@import "./myPage/profile.css";
+@import "./myPage/myPageMenu.css";
+@import "./mypage/myPageBox.css";
 
 /* component */
 @import "./components/header.css";
