@@ -4,12 +4,12 @@
     display: flex;
     box-sizing: border-box;
 
-    /* header À§¿¡ °íÁ¤ */
+    /* header ìœ„ì— ê³ ì • */
     top:0;
     position: fixed;
     z-index: 1;
     
-    /* ½ºÅ©·Ñ javascript ¼³Á¤ */
+    /* ìŠ¤í¬ë¡¤ javascript ì„¤ì • */
     background-color: beige;
 }
 
@@ -35,7 +35,7 @@
 .header__nav > ul{
     display: flex;
 
-    /* nav À§Ä¡ */
+    /* nav ìœ„ì¹˜ */
     position: absolute;
     top: 25%;
     left: 33%;
