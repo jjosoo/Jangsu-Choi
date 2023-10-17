@@ -22,6 +22,7 @@
 
 /* CsBox : 1:1 상담 */
 @import "./cs/CsBox.css";
+@import "./cs/CsBox_button.css";
 
 /* component */
 @import "./components/header.css";

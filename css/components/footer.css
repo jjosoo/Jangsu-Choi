@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
 
-    /* ±¸ºÐÇÏ±â À§ÇØ¼­ »ö ¼³Á¤ */
+    /* êµ¬ë¶„í•˜ê¸° ìœ„í•´ì„œ ìƒ‰ ì„¤ì • */
     background-color: rgb(175, 105, 115);
 }
 
@@ -33,6 +33,6 @@
     width: 100%;
     height: 30%;
 
-    /* ±¸ºÐÇÏ±â À§ÇØ¼­ »ö ¼³Á¤ */
+    /* êµ¬ë¶„í•˜ê¸° ìœ„í•´ì„œ ìƒ‰ ì„¤ì • */
     background-color: tomato;
 }
