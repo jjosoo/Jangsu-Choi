@@ -20,6 +20,9 @@
 @import "./myPage/myPageMenu.css";
 @import "./mypage/myPageBox.css";
 
+/* CsBox : 1:1 상담 */
+@import "./cs/CsBox.css";
+
 /* component */
 @import "./components/header.css";
 @import "./components/search_bar.css";

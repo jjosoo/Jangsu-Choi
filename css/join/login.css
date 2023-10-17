@@ -118,7 +118,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
+
+.hidden {
+    display: none;
+}
+
     .loginBox__form_no-name{
         width: 80%;
         height: 10%;
