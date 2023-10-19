@@ -1,0 +1,84 @@
+/* footer 시작 */
+#footer{
+  
+}
+
+/* footer1 */
+.footer1{
+    /* height: 200px; */
+    /* background-color: rgb(150, 85, 85); */
+    display: flex;
+}
+
+/* footer1_1 */
+.footer1 .footer1_1{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(196, 182, 35);
+}
+
+/* 고객만족센터 */
+h4{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 40px;
+    border-bottom: 2px solid gray;
+}
+
+/* .footer1 .footer1_1 p{
+    text-align: center;
+    
+} */
+
+
+
+.operatingtime{
+    text-align: center;
+    font-size: 1em;
+}
+
+.tel{
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* footer1_2 */
+.footer1 .footer1_2{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(248, 242, 172);
+}
+
+/* footer1_3 */
+.footer1 .footer1_3{
+    width: 33.333%;
+    height: 200px;
+    background-color: rgb(151, 218, 115);
+}
+
+/* footer2 */
+.footer2{
+    height: 100px;
+    background-color: #dddd;
+}
+
+/* 회사소개 등등 */
+
+.title{
+    height: 20px;
+    text-align: center;
+    padding: 5px 5px;
+    border-bottom: solid 2px gray;
+    /* margin-top: 3px; */
+}
+
+/* 상호명 등등 */
+
+.footer2_content{
+    text-align: center;
+}
+

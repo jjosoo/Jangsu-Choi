@@ -1,0 +1,109 @@
+
+
+.joinBox{
+    /* 위치 가운데 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 35%;
+    height: 70%;
+
+    box-sizing: border-box;
+    /* background-color: teal; */
+}
+
+.joinBox__logo{
+    width: 100%;
+    height: 40%;
+
+    /* 이미지 설정 */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.joinBox__logo  img{
+    width: 50%;
+    height: 100%;
+}
+
+.joinBox__member{
+    width: 100%;
+    height: 13%;
+    padding: 10px 0px;
+    margin: 20px 0px 10px 0px;
+    background-color: white;
+
+    display: flex;
+    box-sizing: border-box;
+}
+.joinBox__member-y{
+    width: 50%;
+    height: 100%;
+    
+    border: 1px solid black;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinBox__member-n{
+    width: 50%;
+    height: 100%;
+
+    background-color: rgb(212, 212, 212);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinBox__main{
+    width: 100%;
+    height: 40%;
+}
+
+.joinBox__main-join{
+    width: 100%;
+    height: 100%;
+}
+
+.joinBox__join{
+    width: 100%;
+    height: 25%;
+    background-color: orange;
+}
+.joinBox__join-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinBox__sns{
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.joinBox__company{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+    .joinBox__company-number{
+        width: 100%;
+        height: 25%;
+        background-color: tomato;
+    }
+    .joinBox__company-name{
+        width: 100%;
+        height: 25%;
+        background-color: yellow;
+        margin-bottom: 5%;
+    }
