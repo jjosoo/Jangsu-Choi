@@ -120,4 +120,21 @@
         color: #474C98;
         margin-bottom: 10px;
       }
+    .question__CsBox-call > p {
+      margin-bottom: 2px;
+    }
 
+.ARS > button{
+  margin-top: 5px;
+  padding: 7px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* 공지사항 */
+.IssueBox__Box{
+  width: 60%;
+  height: 40%;
+
+  background-color: orange;
+}      
