@@ -1,19 +1,20 @@
-.cs_wrap{
+/* .cs_wrap{
     overflow-y: auto;
     height: 100vh;
-}
+} */
 .CsBox{
     padding-top: 80px;
     box-sizing: border-box;
-    height: auto;
+    /* height: auto; */
     width: 100%;
+
     height: 100vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
     .CsBox__title{
@@ -27,15 +28,16 @@
         align-items: center;
 
         border-bottom: 2px solid rgb(200, 200, 200);
+        margin-bottom: 10px;
     }
         .CsBox__title > h1{
             font-size: 50px;
+            margin-bottom: 10px;
         }
 
     .CsBox__button{
-        width: 100%;
+        width: 90%;
         height: 60px;
-        padding-right: 100px;
 
         box-sizing: border-box;
 
@@ -46,13 +48,17 @@
         /* background-color: tomato; */
     }
         .CsBox__button > button{
+            display: flex;
             padding: 15px 30px;
             background-color: #6C757D;
             color: white;
             border-radius: 10px;
         }
             .CsBox-Question{
-                margin-left: 50px;
+                margin-left: 20px;
+            }
+            .CsBox-Question{
+                margin-right: 20px;
             }
     
 .CsBox__table{
