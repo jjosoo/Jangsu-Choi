@@ -16,8 +16,12 @@
 .footer__contents-cs{
     width: 30%;
     height: 100%;
+
+    
+
     background-color: teal;
 }
+
 .footer__contents-issue{
     width: 30%;
     height: 100%;
