@@ -5,7 +5,7 @@
 
 .footer__contents{
     width: 100%;
-    height: 60%;
+    height: 65%;
     display: flex;
     justify-content: space-around;
 
@@ -95,11 +95,22 @@
 
 .footer__footer{
     width: 100%;
-    height: 40%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    box-sizing: border-box;
 
     /* 구분하기 위해서 색 설정 */
     background-color: tomato;
 }
     .footer__footer-title{
-        
+        line-height: 1.3;
+    }
+    .footer__footer-content{
+        line-height: 1.2;
     }
