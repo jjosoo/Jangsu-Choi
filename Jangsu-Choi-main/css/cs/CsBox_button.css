@@ -1,0 +1,15 @@
+.CsBox__table-button{
+    margin-top: 30px;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .CsBox__button-li > a > span{
+        padding: 10px 15px;
+        background-color: rgb(176, 176, 176);
+        border-radius: 10px;
+        color: white;
+    }
+
