@@ -1,6 +1,6 @@
 #MainSelectForm{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
   }
@@ -28,10 +28,10 @@
         margin-right: 20px;
       } */
 
-      /* ¿îµ¿ Á¾¸ñ ¼±ÅÃ ½ºÅ¸ÀÏ option½ºÅ¸ÀÏÀº css ¸øÇÔ Äõ¸®³ª js½á¾ßÇÔ */
+      /* ï¿½îµ¿ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ optionï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ css ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ jsï¿½ï¿½ï¿½ï¿½ï¿½ */
       select, input[type="time"], input[type="number"], input[type="submit"] {
         box-sizing: border-box;
-        height: 40px; /*  ¹Ì¸¸½Ã ³ôÀÌ ÀÌ»óÇØÁü */
+        height: 40px; /*  ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ï¿½ï¿½ */
         padding: 5px 12px;  
       }
       
