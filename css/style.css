@@ -39,14 +39,17 @@
 @import "./components/footer.css";
 @import "./components/choi_bar.css";
 
+@import "./index/test.css";
+
 /* 페이지 설정 */
 .wrap{
     width: 100%;
     height: 100vh;
-    /* background-color: #B8C9FF; */
     box-sizing: border-box;
 }
 
-@import "./index/test.css";
+.wrap_main{
+    background-color: #B8C9FF;
+}
 
 

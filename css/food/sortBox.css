@@ -1,8 +1,10 @@
 .food_wrap{
   width: 100%;
-  height: auto;
+  height: auto; 
 }
-
+.food_bg{
+  background-color: #B8C9FF;
+}
 .sortBox_position{
   display: flex;
   flex-direction: column;
