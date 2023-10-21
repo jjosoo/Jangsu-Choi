@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
 @import "./reset.css";
 
 /* index : main 페이지 */
@@ -44,5 +46,6 @@
     background-color: white;
     box-sizing: border-box;
 }
+
 
 

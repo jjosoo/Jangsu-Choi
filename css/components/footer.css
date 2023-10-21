@@ -106,7 +106,7 @@
     box-sizing: border-box;
 
     /* 구분하기 위해서 색 설정 */
-    background-color: tomato;
+    /* background-color: tomato; */
 }
     .footer__footer-title{
         line-height: 1.3;
