@@ -25,8 +25,9 @@
 
 
 /* 고객문의 */
-    /* Question 상담 메인페이지*/
+    /* Question : 공지사항*/
     @import "./cs/question_main.css";
+    @import "./cs/question_list.css";
 
     /* CsBox : 상담 게시판 */
     @import "./cs/CsBox.css";
