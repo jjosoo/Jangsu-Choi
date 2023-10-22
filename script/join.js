@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 
     function swapStyles(selector1, selector2) {
-        // ½ºÅ¸ÀÏ ±³È¯
+        // ìŠ¤íƒ€ì¼ êµí™˜
         var tempBackgroundColor = $(selector1).css("background-color");
         var tempBorder = $(selector1).css("border");
         var tempFontWeight = $(selector1).css("font-weight");

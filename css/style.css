@@ -27,7 +27,7 @@
 /* 고객문의 */
     /* Question : 공지사항*/
     @import "./cs/question_main.css";
-    @import "./cs/question_list.css";
+    @import "./cs/question_submit.css";
 
     /* CsBox : 상담 게시판 */
     @import "./cs/CsBox.css";
@@ -41,6 +41,7 @@
 @import "./components/choi_bar.css";
 
 @import "./index/test.css";
+@import "./components/popup.css";
 
 /* 페이지 설정 */
 .wrap{

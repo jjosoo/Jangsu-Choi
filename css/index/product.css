@@ -34,7 +34,7 @@
     .M_Product-item{
         display: flex;
         flex-direction: column;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
     .M_Product-contents{
         width: 100%;
@@ -43,23 +43,54 @@
         .M_Product-img{
             width: 100%;
             height: 60%;
-            background-color: orange;
+            box-sizing: border-box;
+            /* background-color: orange; */
         }
+            .M_Product-img >img{
+                width: 100%;
+                height: 100%;
+            }
 
         .M_Product-name{
             width: 100%;
-            height: 13%;
-            background-color: pink;
+            height: 10%;
+            box-sizing: border-box;
+            padding: 0px 10px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            /* background-color: pink; */
         }
 
         .M_Product-price{
             width: 100%;
-            height: 13%;
-            background-color: teal;
+            height: 10%;
+            
+            box-sizing: border-box;
+            padding: 0px 10px;
+            font-size: 13px;
+
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            /* background-color: teal; */
         }
 
         .M_Product-desc{
             width: 100%;
-            height: 13%;
-            background-color: gray;
+            height: 7%;
+            box-sizing: border-box;
+            padding: 0px 10px;
+
+            font-size: 12px;
+            opacity: 0.4;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            /* background-color: gray; */
         }

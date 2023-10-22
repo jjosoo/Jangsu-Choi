@@ -1,0 +1,22 @@
+.popup-btn {
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px;
+    display: inline-block;
+}
+.popup-view {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #a2a2a2;
+    border: 3px solid #000;
+    z-index: 1000;
+    display: none;
+} 
+.popup-close {
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
