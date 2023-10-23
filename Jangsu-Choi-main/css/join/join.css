@@ -1,0 +1,158 @@
+
+
+.joinBox{
+    /* ��ġ ��� */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 35%;
+    height: 70%;
+
+    box-sizing: border-box;
+    /* background-color: teal; */
+}
+
+.joinBox__logo{
+    width: 100%;
+    height: 40%;
+
+    /* �̹��� ���� */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.joinBox__logo  img{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.joinBox__member{
+    width: 100%;
+    height: 13%;
+    padding: 10px 0px;
+    margin: 20px 0px 10px 0px;
+    background-color: white;
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* 개인회원 */
+.joinBox__member-y{
+    width: 50%;
+    height: 100%;
+    
+    border: 1px solid black;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 법인회원 */
+.joinBox__member-n{
+    width: 50%;
+    height: 100%;
+
+    background-color: rgb(212, 212, 212);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 일반회원 시작 */
+.joinBox__main{
+    width: 100%;
+    height: 40%;
+}
+
+.joinBox__main-join{
+    width: 100%;
+    height: 100%;
+}
+
+.joinBox__join{
+    width: 100%;
+    height: 25%;
+    margin: 0.4em 0;
+    padding: 0; /* 내부 패딩 제거 */
+    background-color: #333;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 가로 방향 가운데 정렬 */
+    align-items: center; /* 세로 방향 가운데 정렬 */
+    
+}
+.joinBox__join-link{
+    list-style: none; /* 목록 기호 제거 */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.joinBox__sns{
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    margin: 0.4em 0;
+}
+
+.joinBox__sns a{
+    float: left;
+    position: relative;
+}
+
+
+/* 법인 */
+.joinBox__company{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+    .joinBox__company-number{
+        width: 100%;
+        height: 25%;
+        background-color: aqua;
+    }
+
+    .joinBox__company-name{
+        width: 100%;
+        height: 25%;
+        background-color: yellow;
+        margin-bottom: 5%;
+    }
+
+/* 인증 */
+    .joinBox__join{
+        width: 100%;
+        height: 25%;
+        margin: 0.4em 0;
+        padding: 0; /* 내부 패딩 제거 */
+        background-color: #333;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center; /* 가로 방향 가운데 정렬 */
+        align-items: center; /* 세로 방향 가운데 정렬 */
+    }
+
+    .joinBox__join .joinBox__join-link{
+        list-style: none; /* 목록 기호 제거 */
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #fff;
+    }

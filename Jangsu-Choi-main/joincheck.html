@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- 회원 가입 정보 확인 레이어 -->
+       <div id="ec_shop_member_confirm-infolayer" class="joinConfirm ">
+                
+        <div class="header">
+            <h2>가입 정보 확인</h2>
+            <button type="button" class="btnClose" onclick="CheckingJoinInfoLayerClose()">닫기</button>
+        </div>
+        <div class="content">
+            <p class="desc">아직 회원가입이 완료되지 않았으니, 작성하신 내용을 확인하신 후에 가입을 완료해주세요.</p>
+            <div class="boardList">
+                <table summary="" border="1">
+    <caption>가입 정보 확인</caption>
+                    <colgroup>
+    <col style="width:30%">
+    <col style="width:auto">
+    </colgroup>
+    <tbody>
+    <tr>
+    <th scope="row">아이디</th>
+                            <td><span id="ec_shop_member_confirm_field-member_id"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    
+    <th scope="row" id="ec_shop_member_confirm-name_title">이름</th>
+                            <td id="ec_shop_member_confirm-name_contents"></td>
+                        </tr>
+    
+    <th scope="row">이름(영문)</th>
+                            <td><span id="ec_shop_member_confirm_field-name_en"></span></td>
+                        </tr>
+    <tr id="ec_shop_member_confirm-nation">
+    <th>국적</th>
+                            <td><span id="ec_shop_member_confirm_field-citizenship"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">주소</th>
+                            <td>
+                                <span id="ec_shop_member_confirm_field-postcode1"></span><br><span id="ec_shop_member_confirm_field-addr1"></span>
+                                <span id="ec_shop_member_confirm_field-addr2"></span>
+                            </td>
+                        </tr>
+    <tr class="">
+    <th scope="row">일반전화</th>
+                            <td><span id="ec_shop_member_confirm_field-phone"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">휴대전화</th>
+                            <td><span id="ec_shop_member_confirm_field-mobile"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">SMS 수신여부</th>
+                            <td><span id="ec_shop_member_confirm_field-is_sms"></span></td>
+                        </tr>
+    <tr>
+    <th scope="row">이메일</th>
+                            <td>
+    <span id="ec_shop_member_confirm_field-email1"></span>@<span id="ec_shop_member_confirm_field-email2"></span>
+    </td>
+                        </tr>
+    <tr class="">
+    <th scope="row">이메일 수신여부</th>
+                            <td><span id="ec_shop_member_confirm_field-is_news_mail"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">별명</th>
+                            <td><span id="ec_shop_member_confirm_field-nick_name"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">성별</th>
+                            <td><span id="ec_shop_member_confirm_field-is_sex"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">생년월일</th>
+                            <td>
+                                <p class="grid "><span id="ec_shop_member_confirm_field-is_solar_calendar"></span></p>
+                                <span id="ec_shop_member_confirm_field-birth_month"></span> / <span id="ec_shop_member_confirm_field-birth_day"></span> / <span id="ec_shop_member_confirm_field-birth_year"></span>
+                            </td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">결혼기념일</th>
+                            <td>
+    <span id="ec_shop_member_confirm_field-marry_year"></span> / <span id="ec_shop_member_confirm_field-marry_month"></span> / <span id="ec_shop_member_confirm_field-marry_day"></span>
+    </td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">배우자생일</th>
+                            <td>
+    <span id="ec_shop_member_confirm_field-partner_year"></span> / <span id="ec_shop_member_confirm_field-partner_month"></span> / <span id="ec_shop_member_confirm_field-partner_day"></span>
+    </td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">자녀</th>
+                            <td><span id="ec_shop_member_confirm_field-child"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">최종학력</th>
+                            <td><span id="ec_shop_member_confirm_field-school"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">직종</th>
+                            <td><span id="ec_shop_member_confirm_field-job_class"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">직업</th>
+                            <td><span id="ec_shop_member_confirm_field-job"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">연소득</th>
+                            <td><span id="ec_shop_member_confirm_field-earning"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">자동차</th>
+                            <td><span id="ec_shop_member_confirm_field-car"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">지역</th>
+                            <td><span id="ec_shop_member_confirm_field-region"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">인터넷 이용장소</th>
+                            <td><span id="ec_shop_member_confirm_field-internet"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">관심분야</th>
+                            <td><span id="ec_shop_member_confirm_field-inter_check"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">본인 확인</th>
+                            <td><span id="ec_shop_member_confirm_field-add1"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add2"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add3"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add4"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add6"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add7"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add8"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add9"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add10"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add11"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add12"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add13"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add14"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row"></th>
+                            <td><span id="ec_shop_member_confirm_field-add15"></span></td>
+                        </tr>
+    <tr class="">
+    <th scope="row">추천인 아이디</th>
+                            <td><span id="ec_shop_member_confirm_field-reco_id"></span></td>
+                        </tr>
+    <tr class="displaynone">
+    <th scope="row">환불계좌 정보</th>
+                            <td>
+                                <ul class="account">
+    <li>
+                                        예금주 : <span id="ec_shop_member_confirm_field-bank_account_owner"></span>
+                                    </li>
+                                    <li>
+                                        은행명 : <span id="ec_shop_member_confirm_field-refund_bank_code"></span>
+                                    </li>
+                                    <li>
+                                        계좌번호 : <span id="ec_shop_member_confirm_field-bank_account_no"></span>
+                                    </li>
+                                </ul>
+    </td>
+                        </tr>
+    </tbody>
+    </table>
+    </div>
+        </div>
+        <div class="btnArea type2">
+            <a href="#none" class="btnSubmit" id="ec_shop_confirm-checkingjoininfo_action">회원가입</a>
+            <a href="#none" class="btnEm" onclick="CheckingJoinInfoLayerClose()">닫기</a>
+        </div>
+    </div>
+</body>
+</html>
+
+history.go(-1);return false

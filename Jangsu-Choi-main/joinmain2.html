@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리동네 최장수 회원가입</title>
+</head>
+<body>
+    <div id="contents" style="margin-top: 0px;">
+        <div id="titleArea">
+            <h2>회원가입</h2>
+        </div>
+        <form id="joinForm" name="joinForm" action="/exec/front/Member/join/" method="post" target="_self" enctype="multipart/form-data">
+            <input id="useSimpleSignin" name="useSimpleSignin" value="F" type="hidden">
+            <input id="member_name_cert_flag" name="member_name_cert_flag" value="F" type="hidden">
+            <input id="is_name_auth_use" name="is_name_auth_use" value="F" type="hidden">
+            <input id="is_ipin_auth_use" name="is_ipin_auth_use" value="F" type="hidden">
+            <input id="is_mobile_auth_use" name="is_mobile_auth_use" value="F" type="hidden">
+            <input id="is_email_auth_use" name="is_email_auth_use" value="F" type="hidden">
+            <input id="default_auth_reg_page_flag" name="default_auth_reg_page_flag" value="E" type="hidden">
+            <input id="realNameEncrypt" name="realNameEncrypt" value="" type="hidden">
+            <input id="add1_name" name="add1_name" value="본인 확인" type="hidden">
+            <input id="add2_name" name="add2_name" value="" type="hidden">
+            <input id="add3_name" name="add3_name" value="" type="hidden">
+            <input id="add4_name" name="add4_name" value="" type="hidden">
+            <input id="is_display_register_business" name="is_display_register_business" value="F" type="hidden">
+            <input id="use_checking_cssn_duplication" name="use_checking_cssn_duplication" value="F" type="hidden">
+            <input id="is_display_register_foreign" name="is_display_register_foreign" value="F" type="hidden">
+            <input id="idDuplCheck" name="idDuplCheck" value="" type="hidden">
+            <input id="emailDuplCheck" name="emailDuplCheck" value="" type="hidden">
+            <input id="login_id_type" name="login_id_type" value="id" type="hidden">
+            <input id="display_agree_privacy_required_check_flag" name="display_agree_privacy_required_check_flag" value="T" type="hidden">
+            <input id="agree_privacy_check[]" name="agree_privacy_check[]" value="T" type="hidden">
+            <input id="display_agree_information_check_flag" name="display_agree_information_check_flag" value="F" type="hidden">
+            <input id="display_agree_consignment_check_flag" name="display_agree_consignment_check_flag" value="F" type="hidden">
+            <input id="display_agree_privacy_optional_check_flag" name="display_agree_privacy_optional_check_flag" value="F" type="hidden">
+            <input id="is_display_register_name" name="is_display_register_name" value="T" type="hidden">
+            <input id="display_required_name" name="display_required_name" value="T" type="hidden">
+            <input id="is_display_register_name_phonetic" name="is_display_register_name_phonetic" value="F" type="hidden">
+            <input id="display_required_name_phonetic" name="display_required_name_phonetic" value="F" type="hidden">
+            <input id="is_display_register_eng_name" name="is_display_register_eng_name" value="F" type="hidden">
+            <input id="display_required_name_en" name="display_required_name_en" value="F" type="hidden">
+            <input id="passwd_type" name="passwd_type" value="C" type="hidden">
+            <input id="is_display_register_addr" name="is_display_register_addr" value="F" type="hidden">
+            <input id="is_display_register_addr2" name="is_display_register_addr2" value="F" type="hidden">
+            <input id="__addr1" name="__addr1" value="" type="hidden">
+            <input id="__city_name" name="__city_name" value="" type="hidden">
+            <input id="__state_name" name="__state_name" value="" type="hidden">
+            <input id="__isRuleBasedAddrForm" name="__isRuleBasedAddrForm" value="F" type="hidden">
+            <input id="address_direct_input_check" name="address_direct_input_check" value="F" type="hidden">
+            <input id="display_required_address" name="display_required_address" value="F" type="hidden">
+            <input id="display_required_address2" name="display_required_address2" value="F" type="hidden">
+            <input id="is_display_register_mobile" name="is_display_register_mobile" value="T" type="hidden">
+            <input id="display_required_cell" name="display_required_cell" value="T" type="hidden">
+            <input id="display_register_mobile" name="display_register_mobile" value="T" type="hidden">
+            <input id="use_checking_mobile_number_duplication" name="use_checking_mobile_number_duplication" value="F" type="hidden">
+            <input id="isMobileVerify" name="isMobileVerify" value="F" type="hidden">
+            <input id="is_display_register_phone" name="is_display_register_phone" value="F" type="hidden">
+            <input id="display_required_phone" name="display_required_phone" value="F" type="hidden">
+            <input id="display_register_phone" name="display_register_phone" value="T" type="hidden">
+            <input id="is_display_password_hint" name="is_display_password_hint" value="F" type="hidden">
+            <input id="required_is_sms_flag" name="required_is_sms_flag" value="T" type="hidden">
+            <input id="required_is_news_mail_flag" name="required_is_news_mail_flag" value="T" type="hidden">
+            <input id="is_display_register_birthday" name="is_display_register_birthday" value="T" type="hidden">
+            <input id="display_required_is_birthday" name="display_required_is_birthday" value="T" type="hidden">
+            <input id="display_required_sex" name="display_required_sex" value="F" type="hidden">
+            <input id="nick_name_flag" name="nick_name_flag" value="F" type="hidden">
+            <input id="nick_name_confirm" name="nick_name_confirm" value="F" type="hidden">
+            <input id="display_required_nick_name_flag" name="display_required_nick_name_flag" value="F" type="hidden">
+            <input id="is_display_register_wedding" name="is_display_register_wedding" value="F" type="hidden">
+            <input id="display_required_is_wedding_anniversary" name="display_required_is_wedding_anniversary" value="F" type="hidden">
+            <input id="is_display_register_life_partner" name="is_display_register_life_partner" value="F" type="hidden">
+            <input id="display_required_is_life_partner" name="display_required_is_life_partner" value="F" type="hidden">
+            <input id="is_display_bank" name="is_display_bank" value="F" type="hidden">
+            <input id="display_required_bank_account_no" name="display_required_bank_account_no" value="F" type="hidden">
+            <input id="display_required_job" name="display_required_job" value="F" type="hidden">
+            <input id="display_required_job_class" name="display_required_job_class" value="F" type="hidden">
+            <input id="display_required_school" name="display_required_school" value="F" type="hidden">
+            <input id="display_required_interest" name="display_required_interest" value="F" type="hidden">
+            <input id="display_required_region" name="display_required_region" value="F" type="hidden">
+            <input id="display_required_internet" name="display_required_internet" value="F" type="hidden">
+            <input id="display_required_child" name="display_required_child" value="F" type="hidden">
+            <input id="display_required_car" name="display_required_car" value="F" type="hidden">
+            <input id="display_required_earning" name="display_required_earning" value="F" type="hidden">
+            <input id="display_required_reco_id" name="display_required_reco_id" value="F" type="hidden">
+            <input id="display_required_add1" name="display_required_add1" value="T" type="hidden">
+            <input id="display_required_add2" name="display_required_add2" value="F" type="hidden">
+            <input id="display_required_add3" name="display_required_add3" value="F" type="hidden">
+            <input id="display_required_add4" name="display_required_add4" value="F" type="hidden">
+            <input id="returnUrl" name="returnUrl" value="/member/join_result.html" type="hidden">
+            <input id="sUseCountryNumberFlag" name="sUseCountryNumberFlag" value="F" type="hidden">
+            <input id="sUseSeparationNameFlag" name="sUseSeparationNameFlag" value="F" type="hidden">
+            <input id="is_use_checking_join_info" name="is_use_checking_join_info" value="F" type="hidden"><div class="xans-element- xans-member xans-member-join"><!--
+
+                 -->
+            <div class="titleArea ">
+                    <h3>회원인증</h3>
+                </div>
+            <div class="boardWrite ">
+                    <table border="1" summary="">
+            <caption>회원가입</caption>
+                        <tbody>
+            <tr class="$display_member_type|display}">
+            <td colspan="2" class="thead"><label for="member_type0" style="white-space:nowrap;"><input id="member_type0" name="member_type" fw-filter="isFill" fw-label="회원구분" fw-msg="" value="p" type="radio" checked="checked" autocomplete="off">개인회원</label>
+            <label for="member_type1" style="white-space: nowrap; display: none;"><input id="member_type1" name="member_type" fw-filter="isFill" fw-label="회원구분" fw-msg="" value="c" type="radio" autocomplete="off" style="display: none;">사업자회원</label></td>
+                            </tr>
+            <tr id="companyWrap" style="display: none;">
+            <td colspan="2" class="thead"><label for="company_type0" style="white-space:nowrap;"><input id="company_type0" name="company_type" fw-filter="" fw-label="사업자구분" fw-msg="" value="p" type="radio" checked="checked" autocomplete="off">개인사업자</label>
+            <label for="company_type1" style="white-space:nowrap;"><input id="company_type1" name="company_type" fw-filter="" fw-label="사업자구분" fw-msg="" value="c" type="radio" autocomplete="off">법인사업자</label></td>
+                            </tr>
+            <tr id="authMember" style="display: none;">
+            <td colspan="2">
+                                    <div id="authWrap" style="display:none;">
+                                        <!-- 개인 회원 인증 -->
+                                        <div id="personAuth" style="">
+                                            <div id="personalTypeWrap" style=""></div>
+                                            <!-- 아이핀인증 -->
+                                            <div id="ipinWrap" style="display: none;"></div>
+                                            <!-- 휴대폰인증 -->
+                                            <div id="mobileWrap" style="display: none;"></div>
+                                            <!-- 이메일인증 -->
+                                            <div id="emailWrap" style=""></div>
+                                        </div>
+                                        <!-- 외국인 회원 인증 -->
+                                        <div id="foreignerAuth" style="display: none;">
+                                            <ul class="grid">
+            <li>이름(Name) <input id="foreigner_name" name="foreigner_name" fw-filter="" fw-label="foreigner_name" fw-msg="" class="inputTypeText" placeholder="" maxlength="20" value="" type="text"></li>
+                                                <li></li>
+                                                <li><input id="foreigner_ssn" name="foreigner_ssn" fw-filter="" fw-label="foreigner_ssn" fw-msg="" class="inputTypeText" placeholder="" value="" type="text"> <button type="button" onclick="checkForeignerNumber();" class="btnBasic">중복확인</button>
+            </li>
+                                            </ul>
+            <div id="foreignerPersonWrap" style="display: none;">
+                                                <p class="grid">회사는 회원의 본인확인 및 서비스제공을 위하여 고유식별정보를 수집하여 보관하며 개인정보취급방침에 따라 <br>보유 및 이용합니다. 고유식별정보 제공을 거부하는 경우 서비스 이용이 제한됩니다.</p>
+                                                <p><input id="f_identification_check0" name="f_identification_check[]" fw-filter="" fw-label="고유식별정보 처리" fw-msg="고유식별정보 처리 방침에 동의해 주세요." value="1" type="checkbox"><label for="f_identification_check0">고유식별정보 처리에 동의 합니다.</label></p>
+                                            </div>
+                                            <div id="foreignerEmailWrap" style="display: none;">
+                                               <ul>
+            <li>기본정보 &gt; 이메일 항목에 입력하신 정보로 본인인증을 진행합니다.</li>
+                                                   <li>회원가입 후에 입력하신 이메일 주소로 인증 메일이 발송되오니, 확인해 주시기 바랍니다.</li>
+                                               </ul>
+            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+            </tbody>
+            </table>
+            </div>
+            <div class="titleArea ">
+                    <h3>기본정보 <span><img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수">필수</span>
+            </h3>
+                </div>
+            <div class="boardWrite ">
+                    <table border="1" summary="">
+            <caption>회원 기본정보</caption>
+                        <tbody>
+            <tr class="idCheck">
+            <th scope="row">아이디 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수"></th>
+                                <td><input id="member_id" name="member_id" fw-filter="isFill&amp;isFill&amp;isMin[4]&amp;isMax[16]&amp;isIdentity" fw-label="아이디" fw-msg="" class="inputTypeText" placeholder="" value="" type="text"> <button type="button" class="btnBasic" onclick="checkId('')">중복확인</button>
+                                    <p id="idMsg"></p>
+                                </td>
+                            </tr>
+            <tr>
+            <th scope="row">비밀번호 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수"></th>
+                                <td><input id="passwd" name="passwd" fw-filter="isFill&amp;isMin[4]&amp;isMax[16]" fw-label="비밀번호" fw-msg="" autocomplete="off" maxlength="16" 0="disabled" value="" type="password"></td>
+                            </tr>
+            <tr>
+            <th scope="row" class="pwConfirm">비밀번호<br>확인 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수"></th>
+                                <td><input id="user_passwd_confirm" name="user_passwd_confirm" fw-filter="isFill&amp;isMatch[passwd]" fw-label="비밀번호 확인" fw-msg="비밀번호가 일치하지 않습니다." autocomplete="off" maxlength="16" 0="disabled" value="" type="password"> <span id="pwConfirmMsg"></span>
+            </td>
+                            </tr>
+            <th scope="row" id="nameTitle">이름 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수"></th>
+                                <td>
+                                    <span id="nameContents"><input type="text" name="name" id="name" maxlength="20"></span>
+                                    <p id="under14Msg" class="displaynone">14세 미만 사용자는 법정대리인 동의가 필요합니다.</p>
+                                </td>
+                            </tr>
+                            </tr--><tr class="">
+            <th scope="row">휴대전화 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" class="" width="5" height="5" alt="필수"></th>
+                                <td><select id="mobile1" name="mobile[]" fw-filter="isNumber&amp;isFill" fw-label="휴대전화" fw-alone="N" fw-msg="">
+            <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+            <option value="019">019</option>
+            </select>-<input id="mobile2" name="mobile[]" maxlength="4" fw-filter="isNumber&amp;isFill" fw-label="휴대전화" fw-alone="N" fw-msg="" placeholder="" value="" type="tel">-<input id="mobile3" name="mobile[]" maxlength="4" fw-filter="isNumber&amp;isFill" fw-label="휴대전화" fw-alone="N" fw-msg="" placeholder="" value="" type="tel"></td>
+                            </tr>
+            <tr>
+            <th scope="row">이메일 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" width="5" height="5" alt="필수"></th>
+                                <td><input id="email1" name="email1" fw-filter="isFill&amp;isEmail" fw-label="이메일" fw-alone="N" fw-msg="" placeholder="" value="" type="text"> <button type="button" class="btnBasic" onclick="checkEmail('')">중복확인</button> <p id="emailMsg"></p>
+            </td>
+                            </tr>
+            <tr class="">
+            <th scope="row">SMS<br>수신여부 </th>
+                                <td><input id="is_sms0" name="is_sms" fw-label="is_sms" fw-msg="" class="ec-base-chk" value="T" type="checkbox"><label for="is_sms0">SMS 수신동의</label></td>
+                            </tr>
+            <tr class="">
+            <th scope="row">이메일<br>수신여부 </th>
+                                <td><input id="is_news_mail0" name="is_news_mail" fw-label="is_news_mail" fw-msg="" class="ec-base-chk" value="T" type="checkbox"><label for="is_news_mail0">이메일 수신동의</label></td>
+                            </tr>
+            </tbody>
+            </table>
+            </div>
+            
+            <tr class="displaynone">
+            <td class="thead" colspan="2">
+            <p>관심있는 운동종목 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" class="displaynone" width="5" height="5" alt="필수"></p>
+            <div class="interest"><input id="inter_check0" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="0" type="checkbox"><label for="inter_check0">스케이팅</label>
+            <input id="inter_check1" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="1" type="checkbox"><label for="inter_check1">헬스</label>
+            <input id="inter_check2" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="2" type="checkbox"><label for="inter_check2">태권도</label>
+            <input id="inter_check3" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="3" type="checkbox"><label for="inter_check3">유도</label>
+            <input id="inter_check4" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="4" type="checkbox"><label for="inter_check4">주짓수</label>
+            <input id="inter_check5" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="5" type="checkbox"><label for="inter_check5">복싱</label>
+            <input id="inter_check6" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="6" type="checkbox"><label for="inter_check6">무에타이</label>
+            <input id="inter_check7" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="7" type="checkbox"><label for="inter_check7">탁구</label>
+            <input id="inter_check8" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="8" type="checkbox"><label for="inter_check8">배드민턴</label>
+            <input id="inter_check9" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="9" type="checkbox"><label for="inter_check9">테니스</label>
+            <input id="inter_check10" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="10" type="checkbox"><label for="inter_check10">골프</label>
+            <input id="inter_check11" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="11" type="checkbox"><label for="inter_check11">필라테스</label>
+            <input id="inter_check12" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="12" type="checkbox"><label for="inter_check12">축구</label>
+            <input id="inter_check13" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="13" type="checkbox"><label for="inter_check13">야구</label>
+            <input id="inter_check14" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="14" type="checkbox"><label for="inter_check14">농구</label>
+            <input id="inter_check15" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="15" type="checkbox"><label for="inter_check15">마라톤</label>
+            <input id="inter_check16" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="16" type="checkbox"><label for="inter_check16">요가</label>
+            <input id="inter_check17" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="17" type="checkbox"><label for="inter_check17">족구</label>
+            <input id="inter_check18" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="18" type="checkbox"><label for="inter_check18">배구</label>
+            <input id="inter_check19" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="19" type="checkbox"><label for="inter_check19">수영</label>
+            <input id="inter_check20" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="20" type="checkbox"><label for="inter_check20">등산</label>
+            <input id="inter_check21" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="21" type="checkbox"><label for="inter_check21">당구</label>
+            <input id="inter_check22" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="22" type="checkbox"><label for="inter_check22">볼링</label>
+            <input id="inter_check23" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="23" type="checkbox"><label for="inter_check23">스쿼시</label>
+            <input id="inter_check24" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="24" type="checkbox"><label for="inter_check24">양궁</label>
+            <input id="inter_check25" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="25" type="checkbox"><label for="inter_check25">사격</label>
+            <input id="inter_check26" name="inter_check[]" fw-filter="" fw-label="관심분야" fw-msg="" value="26" type="checkbox"><label for="inter_check26">기타등등</label></div>
+            </td>
+                            </tr>
+            
+            </tbody>
+            </table>
+            </div>
+            <div class="titleArea accountArea displaynone ">
+                    <h3>환불계좌</h3>
+                </div>
+            <div class="boardWrite ">
+                    <table border="1" summary="">
+            <caption>회원 추가정보</caption>
+                        <tbody>
+            <tr class="displaynone">
+            <th scope="row">예금주 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" class="displaynone" width="5" height="5" alt="필수"></th>
+                                <td><input id="bank_account_owner" name="bank_account_owner" fw-filter="" fw-label="예금주" fw-msg="" class="inputTypeText" placeholder="" autocomplete="off" value="" type="text"></td>
+                            </tr>
+            <tr class="displaynone">
+            <th scope="row">은행명 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" class="displaynone" width="5" height="5" alt="필수"></th>
+                                <td><select id="refund_bank_code" name="refund_bank_code" fw-filter="" fw-label="은행명" fw-msg="">
+            <option value="" selected="selected">- 은행선택 -</option>
+            <option value="bank_02">산업은행</option>
+            <option value="bank_03">기업은행</option>
+            <option value="bank_04">국민은행</option>
+            <option value="bank_05">하나(외환)은행</option>
+            <option value="bank_07">수협중앙회</option>
+            <option value="bank_11">농협중앙회</option>
+            <option value="bank_12">농협개인</option>
+            <option value="bank_13">농협</option>
+            <option value="bank_20">우리은행</option>
+            <option value="bank_209">유안타증권</option>
+            <option value="bank_218">KB증권</option>
+            <option value="bank_23">SC제일은행</option>
+            <option value="bank_230">미래에셋증권</option>
+            <option value="bank_238">대우증권</option>
+            <option value="bank_240">삼성증권</option>
+            <option value="bank_243">한국투자증권</option>
+            <option value="bank_26">신한은행</option>
+            <option value="bank_261">교보증권</option>
+            <option value="bank_262">하이투자증권</option>
+            <option value="bank_263">현대차증권</option>
+            <option value="bank_266">SK증권</option>
+            <option value="bank_267">대신증권</option>
+            <option value="bank_269">한화증권</option>
+            <option value="bank_270">하나대투증권</option>
+            <option value="bank_278">신한금융투자</option>
+            <option value="bank_279">동부증권</option>
+            <option value="bank_280">유진투자증권</option>
+            <option value="bank_287">메리츠증권</option>
+            <option value="bank_288">카카오페이증권</option>
+            <option value="bank_289">NH투자증권</option>
+            <option value="bank_291">신영증권</option>
+            <option value="bank_292">케이뱅크</option>
+            <option value="bank_293">카카오뱅크</option>
+            <option value="bank_294">LIG증권</option>
+            <option value="bank_295">OK저축은행</option>
+            <option value="bank_296">토스뱅크</option>
+            <option value="bank_297">토스증권</option>
+            <option value="bank_31">대구은행</option>
+            <option value="bank_32">부산은행</option>
+            <option value="bank_34">광주은행</option>
+            <option value="bank_35">제주은행</option>
+            <option value="bank_37">전북은행</option>
+            <option value="bank_39">경남은행</option>
+            <option value="bank_52">모건스탠리은행</option>
+            <option value="bank_53">씨티은행</option>
+            <option value="bank_57">유에프제이은행</option>
+            <option value="bank_58">미즈호코퍼레이트은행</option>
+            <option value="bank_59">미쓰비시도쿄은행</option>
+            <option value="bank_60">뱅크오브아메리카</option>
+            <option value="bank_71">우체국</option>
+            <option value="bank_76">신용보증기금</option>
+            <option value="bank_77">기술신용보증기금</option>
+            <option value="bank_81">하나은행</option>
+            <option value="bank_82">농협회원조합</option>
+            <option value="bank_83">도이치은행</option>
+            <option value="bank_84">상호저축은행</option>
+            <option value="bank_85">새마을금고</option>
+            <option value="bank_86">수출입은행</option>
+            <option value="bank_87">신용협동조합</option>
+            <option value="bank_89">홍콩상하이은행(HSBC)</option>
+            <option value="bank_90">에이비엔암로은행</option>
+            <option value="bank_91">산림조합</option>
+            <option value="bank_93">한국주택금융공사</option>
+            <option value="bank_94">서울보증보험</option>
+            <option value="bank_95">경찰청</option>
+            <option value="bank_99">금융결제원</option>
+            <option value="bank_999">기타</option>
+            </select></td>
+                            </tr>
+            <tr class="displaynone">
+            <th scope="row">계좌번호 <img src="https://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_required.png" class="displaynone" width="5" height="5" alt="필수"></th>
+                                <td><input id="bank_account_no" name="bank_account_no" fw-filter="" fw-label="계좌번호" fw-msg="" class="inputTypeText" placeholder="" autocomplete="off" value="" type="text"></td>
+                            </tr>
+            </tbody>
+            </table>
+            </div>
+            <div class="btnArea type1">
+                    <button type="button" class="btnSubmit" onclick="memberJoinAction()">가입하기</button>
+                </div>
+            </div>
+            </form>
+    </div>
+</body>
+</html>
