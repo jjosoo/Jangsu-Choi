@@ -27,24 +27,56 @@
             <div class="loginBox__main">
 
                 <form action="" class="loginBox__form">
+
                 <!-- 아이디 / 비밀번호 입력 박스 -->
-                <div class="loginBox__form-inputBox"></div>
+                  <div class="loginBox__form-inputBox">
 
-                <!-- 로그인 버튼 -->
-                <div class="loginBox__form-login"></div>
-
-                <!-- 아이디 저장 & 아이디/비밀번호 찾기 -->
-                <div class="loginBox__form-except"></div>
-
-                <!-- sns 가입 -->
-                <div class="loginBox__form-sns"></div>
-
-                <!-- 회원가입 -->
-                <a href="join.html" class="loginBox__form-join">
-                    <div class="loginBox__form-joinDiv">
-                        회원가입
+                    <!-- 아이디 -->
+                    <div class="inputBox-id">
+                      <input class="member_id" type="text" placeholder="아이디" name="id">
                     </div>
-                </a>
+
+                    <!-- 비밀번호 -->
+                    <div class="inputBox-id">
+                      <input class="member_id" type="text" placeholder="비밀번호" name="pw">
+                    </div>
+                  </div>
+
+                  <!-- 로그인 버튼 -->
+                  <div class="loginBox__form-login">
+                    <button class="member-login">
+                      <input class="member-login member-login-sumbit" type="submit" value="로그인" name="login">
+                    </button>
+                  </div>
+
+                  <!-- 아이디 저장 & 아이디/비밀번호 찾기 -->
+                  <!-- <div class="loginBox__form-except">
+                    SNS계정으로 로그인
+                  </div> -->
+
+                  <!-- sns 가입 -->
+                  <div class="loginBox__form-sns">
+
+                    <button class="member-sns naver">
+                      <img src="img/naver.jpg" alt="naver">
+                    </button>
+
+                    <button class="member-sns kakao">
+                      <img src="img/kakao.png" alt="kakao">
+                    </button>
+
+                    <button class="member-sns google">
+                      <img src="img/google.png" alt="google">
+                    </button>
+
+                  </div>
+
+                  <!-- 회원가입 -->
+                  <a href="join.html" class="loginBox__form-join">
+                      <div class="loginBox__form-joinDiv">
+                          회원가입
+                      </div>
+                  </a>
                 </form>
                 
                 <form action="" class="loginBox__form_no hidden">

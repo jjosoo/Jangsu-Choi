@@ -72,26 +72,93 @@
     justify-content: center;
     align-items: center;
 }
+
+/* 아이디 & 비밀번호 */
 .loginBox__form-inputBox{
     width: 80%;
-    height: 30%;
-    background-color: orange;
+    height:25%;
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+    .inputBox-id{
+        width: 100%;
+        height: 35%;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+        .member_id{
+            width: 100%;
+            height: 100%;
+            padding-left: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+        }
+
+/* 로그인 submit */
 .loginBox__form-login{
     width: 80%;
     height: 10%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
-.loginBox__form-except{
+    .member-login{
+        width: 100%;
+        height: 100%;
+        background-color: #A6A9D7;
+        border-radius: 10px;
+    }
+    .member-login-sumbit{
+        cursor: pointer;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+/* sns 계정으로 로그인 */
+/* .loginBox__form-except{
     width: 80%;
-    height: 5%;
+    height: 8%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: tomato;
-}
+} */
+
 .loginBox__form-sns{
     width: 80%;
-    height: 20%;
-    background-color: beige;
+    height: 15%;
+    /* background-color: beige; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+    .member-sns{
+        width: 8%;
+        height: 50%;
+        /* background-color: tomato; */
+        margin-right: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .member-sns > img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+            .google > img{
+                border: 2px solid rgba(0, 0, 0, 0.3);
+            }
+
 
 .loginBox__form-join{
     width: 80%;
@@ -101,7 +168,10 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-color: teal;
+
+    border: 1px solid #5055B1;
+    color: #5055B1;
+    background-color: white;
 
     display: flex;
     justify-content: center;
