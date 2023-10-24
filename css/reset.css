@@ -63,17 +63,33 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+/* 공통 input 스타일 */
 input {
-	margin: 0;
-	padding: 0;
-	border: none;
-	outline: none;
-	font-family: inherit;
-	font-size: 100%;
-	color: inherit;
-	background-color: transparent;
-	box-sizing: border-box;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
+
+/* checkbox 스타일 예외 */
+input[type="checkbox"] {
+    margin: initial;
+    padding: initial;
+    border: initial;
+    outline: initial;
+    background-color: initial;
+    box-sizing: initial;
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    appearance: checkbox;         /* Standard syntax */
+}
+
+
