@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery.min.js"></script>
+    <script src="script/joincheck.js"></script>
     <title>우리동네 최장수</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
         </div>
 
         <!--  회원 정보 입력  -->
-        <form action="index.html" class="PersonBox-joinBox">
+        <form action="" class="PersonBox-joinBox">
           <div class="P_joinBox-title">회원정보 입력</div>
 
           <!-- 아이디 -->
@@ -75,10 +77,10 @@
 
           <!-- 생년월일/성별 -->
           <div class="P_joinBox-sub">
-            <div class="P_joinBox-Subtitle">생년월일/성별</div>
+            <div class="P_joinBox-Subtitle">주소</div>
             
             <div class="P_joinBox-inputBox">
-              <input type="text" placeholder="생년월일 입력해 주세요." name="PersonBirth" required>
+              <input type="text" placeholder="주소를 입력해 주세요." name="PersonAddress" required>
             </div>
           </div>
 
@@ -87,6 +89,19 @@
             <button class="person-submit">
               <input class="person-submit person-input" type="submit" value="회원가입" name="personJoin">
             </button>
+          </div>
+
+          <!-- 임시 팝업 -->
+          <div class="person-popup">
+            <div class="person-popup-main">
+              <div class="person-popup-title">
+                회원가입이 완료되었습니다.
+              </div>
+
+              <div class="person-popup-close">
+                <a href="login.html">확인</a>
+              </div>
+            </div>
           </div>
 
         </form>
