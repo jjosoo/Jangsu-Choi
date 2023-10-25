@@ -28,18 +28,35 @@
                 <!-- 일반 회원 -->
                 <div class="joinBox__main-join">
                     <div class="joinBox__join">
-                        <a href="#" class="joinBox__join-link">
+                        <a href="join_person.html" class="joinBox__join-link">
                             회원가입
                         </a>
                     </div>
-    
-                    <div class="joinBox__sns"></div>
+                    
+                    <!-- sns가입 : login 클래스 사용 -->
+                    <div class="joinBox__sns">
+                      <button class="member-sns naver">
+                        <img src="img/naver.jpg" alt="naver">
+                      </button>
+  
+                      <button class="member-sns kakao">
+                        <img src="img/kakao.png" alt="kakao">
+                      </button>
+  
+                      <button class="member-sns google">
+                        <img src="img/google.png" alt="google">
+                      </button>
+                    </div>
                 </div>
 
                 <!-- 법인 -->
                 <div class="joinBox__company">
-                    <div class="joinBox__company-number"></div>
-                    <div class="joinBox__company-name"></div>
+                    <div class="joinBox__company-inputBox">
+                      <input class="joinBox__company-input" type="text" placeholder="사업자번호를 입력해 주세요" name="CompayNum">
+                    </div>
+                    <div class="joinBox__company-inputBox">
+                      <input class="joinBox__company-input" type="text" placeholder="법인명을 입력해 주세요" name="CompayName">
+                    </div>
 
                     <div class="joinBox__join">
                         <a href="#" class="joinBox__join-link">

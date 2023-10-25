@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 @import "./reset.css";
+@import "./variables.css";
 
 /* index : main 페이지 */
 @import "./index/welcome.css";
@@ -10,6 +11,9 @@
 /* join : 로그인, 회원가입 */
 @import "./join/login.css";
 @import "./join/join.css";
+    /* 개인 회원가입 */
+    @import "./join/join_person.css";
+    @import "./join/join_person-input.css";
 
 /* food : 추천음식 */
 @import "./food/question.css";

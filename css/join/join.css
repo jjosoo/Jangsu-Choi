@@ -1,7 +1,5 @@
-
-
 .joinBox{
-    /* ¿ßƒ° ∞°øÓµ• */
+    /* ÏúÑÏπò Í∞ÄÏö¥Îç∞ */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,7 +16,7 @@
     width: 100%;
     height: 40%;
 
-    /* ¿ÃπÃ¡ˆ º≥¡§ */
+    /* Ïù¥ÎØ∏ÏßÄ ÏÑ§Ï†ï */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -63,6 +61,8 @@
 .joinBox__main{
     width: 100%;
     height: 40%;
+    margin-top: 30px;
+    /* background-color: tomato; */
 }
 
 .joinBox__main-join{
@@ -70,14 +70,21 @@
     height: 100%;
 }
 
+/* Í∞úÏù∏ÌöåÏõê */
 .joinBox__join{
     width: 100%;
     height: 25%;
-    background-color: orange;
+
+    border: 1px solid #5055B1;
+    border-radius: 10px;
+    background-color: white;
 }
 .joinBox__join-link{
     width: 100%;
     height: 100%;
+
+    color: #5055B1;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,23 +94,35 @@
     width: 100%;
     height: 35%;
     margin-top: 20px;
-    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: yellow; */
 }
 
+/* Î≤ïÏù∏ */
 .joinBox__company{
     width: 100%;
     height: 100%;
     display: none;
 }
 
-    .joinBox__company-number{
+    .joinBox__company-inputBox{
         width: 100%;
         height: 25%;
-        background-color: tomato;
+        margin-bottom: 20px;
+        
+        /* background-color: tomato; */
     }
-    .joinBox__company-name{
-        width: 100%;
-        height: 25%;
-        background-color: yellow;
-        margin-bottom: 5%;
-    }
+        .joinBox__company-input{
+            width: 100%;
+            height: 100%;
+
+            text-align: center;
+            background-color: white;
+
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
