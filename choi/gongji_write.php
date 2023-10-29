@@ -42,15 +42,15 @@
               <form action="gongji_write.php" method="post">
                   <label for="title" class="QsubmitBox__table-title">제목 : </label>
                   <input type="text" id="title" name="title" required><br>
-                  <label for="content" class="QsubmitBox__table-content">내용 : </label>
-                  <textarea name="content" id="content" required></textarea><br>
+
+                  <label for="content" class="QsubmitBox__table-content"></label>
+                  <textarea name="content" id="content"  rows="30" cols="150" required></textarea><br>
                   <input type="submit" value="작성">
               </form>
-                <!-- <tr class="QsubmitBox__table-title">
-                    <td class="QsubmitBox__table-title">제목</td>
-                    <td>
-                        
-                    </td> -->
+              
+                <a href="gongji_list.php"><input type="submit" value="목록가기"></a>
+            
+                
                 </tr>
             </table>
           </div>
@@ -87,6 +87,9 @@
                         else{
                             echo "Error : ". $sql . "<br>", mysqli_error($con);
                         }
+
+
+                
 
             // 데이터베이스 연결 종료
             mysqli_close($con);
