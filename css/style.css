@@ -14,6 +14,9 @@
     /* 개인 회원가입 */
     @import "./join/join_person.css";
     @import "./join/join_person-input.css";
+    /* 기업 회원가입 */
+    @import "./join/join_company.css";
+    @import "./join/join_company-input.css";
 
 /* food : 추천음식 */
 @import "./food/question.css";

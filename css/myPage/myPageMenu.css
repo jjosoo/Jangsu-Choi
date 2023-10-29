@@ -4,7 +4,7 @@
     display: flex;
 }
 .myPage_Menu{
-    width: 10%;
+    width: 13%;
     height: 100%;
 
     /* background-color: yellow; */
@@ -20,7 +20,7 @@
     background-color: #9c9c9c;
 }
 
-/* javascript ÇÒ½Ã ÁÖ¼®Ã³¸® ÇØÁ¦ÇÏ±â */
+/* javascript ï¿½Ò½ï¿½ ï¿½Ö¼ï¿½Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ */
 /* .myPage_Menu > ul > li > ul {
     display: none;
 } */

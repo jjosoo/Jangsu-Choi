@@ -7,27 +7,27 @@
 .profile{
     width: 100%;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
     
     display: flex;
     justify-content: center;
     align-items: center;
     
-    background-color: beige;
+    background-color: var(--main-color);
 }
 
-/* profiel ÀÌ¹ÌÁö */
+/* profiel ì´ë¯¸ì§€ */
 
 .profile__img{
     width: 10%;
     height: 60%;
     border-radius: 100%;
 
-    /* ÀÌ¹ÌÁö À§Ä¡ È®ÀÎ¿ë */
+    /* ì´ë¯¸ì§€ ìœ„ì¹˜ í™•ì¸ìš© */
     /* background-color: tomato; */
 }
 
-/* profile ¼³Á¤µÈ ÀÌ¹ÌÁö */
+/* profile ì„¤ì •ëœ ì´ë¯¸ì§€ */
 .profile__img-main{
     width: 100%;
     height: 100%;
@@ -39,7 +39,7 @@
     border-radius: 100%;
 }
 
-/* profiel ÀÌ¹ÌÁö º¯°æ ¹öÆ° */
+/* profiel ì´ë¯¸ì§€ ë³€ê²½ ë²„íŠ¼ */
 .profile__img-change{
     width: 30%;
     height: 30%;
@@ -55,12 +55,12 @@
     justify-content: center;
     align-items: center;
 }
-/* ÀÌ¹ÌÁö º¯°æ ¹öÆ° ¾ÆÀÌÄÜ È¸Àü */
+/* ì´ë¯¸ì§€ ë³€ê²½ ë²„íŠ¼ ì•„ì´ì½˜ íšŒì „ */
 .profile__img-change > i{
     transform: rotate(10deg);
 }
 
-/* ÇÁ·ÎÇÊ Á¤º¸ */
+/* í”„ë¡œí•„ ì •ë³´ */
 .profile__box{
     width: 30%;
     height: 80%;
@@ -70,7 +70,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    /* À§Ä¡ È®ÀÎ¿ë */
+    /* ìœ„ì¹˜ í™•ì¸ìš© */
     /* background-color: white; */
 
 }
@@ -93,7 +93,7 @@
     height: 30%;
     display: flex;
 
-    /* È®ÀÎ¿ë */
+    /* í™•ì¸ìš© */
     /* background-color: teal; */
     box-sizing: border-box;
 }
@@ -101,7 +101,7 @@
     width: 30%;
     height: 100%;
 
-    /* È®ÀÎ¿ë */
+    /* í™•ì¸ìš© */
     /* background-color: black;
     color: white; */
 
@@ -114,7 +114,7 @@
     width: 70%;
     height: 100%;
 
-    /* È®ÀÎ¿ë */
+    /* í™•ì¸ìš© */
     /* background-color: tomato;
     color: white; */
 
@@ -137,7 +137,7 @@
     /* background-color: teal; */
 }
 
-/* ÄíÆù */
+/* ì¿ í° */
 .profile__box-count-coupon{
     width: 20%;
     height: 100%;
@@ -168,7 +168,7 @@
         /* background-color: yellow; */
     }
 
-/* Âò */
+/* ì°œ */
 .profile__box-count-like{
     width: 15%;
     height: 100%;

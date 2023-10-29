@@ -1,0 +1,13 @@
+/* 제출버튼 */
+.company__submit{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--third-color);
+}
+    .company__submit > input{
+        width: 90%;
+        height: 100%;
+        color: white;
+        cursor: pointer;
+    }

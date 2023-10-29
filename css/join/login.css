@@ -162,10 +162,33 @@
                 border: 2px solid rgba(0, 0, 0, 0.3);
             }
 
+/* id / pw 찾기 */
+.loginBox__form-search{
+    width: 80%;
+    height: 5%;
+    /* margin-bottom: 20px; */
+    opacity: 0.8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+}   
+    /* .loginBox__form-search > a{
+        padding: 8px 20px;
+        background-color: #dee6ff;
+        border-radius: 10px;
+    } */
+    .loginBox__form-search > a:first-child{
+        margin-left: -10px;
+        margin-right: 30px;
+    }
+
 /* 회원가입 */
 .loginBox__form-join{
     width: 80%;
     height: 13%;
+    margin-top: 10px;
 }
 .loginBox__form-joinDiv{
     width: 100%;
