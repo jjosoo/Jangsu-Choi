@@ -48,7 +48,7 @@
         <!-- 프로필 정보 -->
         <div class="profile__box">
             <div class="profile__box-level">
-                <p>서장</p>
+                <p>판매자</p>
             </div>
             <div class="profile__box-name">
                 <p>최장수</p>
@@ -74,56 +74,108 @@
         <div class="myPage_Menu">
             <ul>
                 <li>
-                    <a href="#">계정 관리</a>
+                    <a href="#">상품</a>
                     <ul class="myPage_SubMenu">
-                        <li><a href="#">프로필 설정</a></li>
-                        <li><a href="#">회원정보 수정</a></li>
-                        <li><a href="#">회원탈퇴</a></li>
-                    </ul>
-                </li>
-                
-                <li>
-                    <a href="#">쇼핑 정보</a>
-                    <ul class="myPage_SubMenu">
-                        <li><a href="#">주문 / 배송 목록</a></li>
-                        <li><a href="#">취소 / 반품 / 교환 내역</a></li>
-                        <li><a href="#">My 리뷰</a></li>
-                    </ul>
+                      <li><a href="#">상품등록</a></li>
+                  </ul>
                 </li>
 
                 <li>
                     <a href="cs.html">고객센터</a>
                     <ul class="myPage_SubMenu">
-                        <li><a href="#">1:1 문의하기</a></li>
-                        <li><a href="#">1:1 답변확인</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">1:1 답변</a></li>
                     </ul>
                 </li>
 
-                <li>
-                    <a href="#">챌린지</a>
-                </li>
             </ul>
         </div>
 
-        <form class="myPage_box">
-          <div class="myPageBox-main">
+        <div class="myPage_box sellerPage_box">
 
-            <div class="myPageBox-title">
-              <div class="myPageBox-title_coupon">쿠폰</div>
-              <div class="myPageBox-title_like">찜</div>
+          <form action="" class="sellerBox">
+
+            <div class="seller_register">
+              <h1>상품등록</h1>
             </div>
 
-            <div class="myPageBox-sort">
-              <div class="myPageBox-sort_gym">체육관</div>
-              <div class="myPageBox-sort_gym">음식</div>
+            <div class="sellerBox-div">
+
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품분류 -->
+                <div class="sellerBox-main">
+                  상품분류
+                </div>
+
+                <div class="sellerBox-cont">
+                  <select name="seller_select" id="seller_select">
+                    <option value="">근력운동</option>
+                    <option value="">체지방감소</option>
+                    <option value="">키토</option>
+                    <option value="">일반건강</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품이름 -->
+                <div class="sellerBox-main">
+                  상품이름
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="text" name="상품명" placeholder="상품명을 입력하세요" required>
+                </div>
+              </div>
+
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품가격 -->
+                <div class="sellerBox-main">
+                  상품가격
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="text" name="상품가격" placeholder="상품가격을 입력하세요" required>
+                </div>
+              </div>
+
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품이미지 -->
+                <div class="sellerBox-main">
+                  상품이미지
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="file" name="상품이미지" placeholder="상품 이미지를 등록하세요" required>
+                </div>
+              </div>
+
+              <div class="sellerBox-box">
+                <!-- 상품 설명 -->
+                <div class="sellerBox-main">
+                  상품 설명
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="text" name="상품 설명" placeholder="상품 설명을 입력하세요" required>
+                </div>
+              </div>
+
+              <div class="sellerBox-box">
+                <!-- 상품 설명 -->
+                <div class="sellerBox-main seller_submit">
+                  <input type="submit">
+                </div>
+              </div>
             </div>
 
-            <div class="myPageBox-cont">
-
-            </div>
-            
-          </div>
-        </form>
+          
+          </form>
+        </div>
 
         <div class="nav">
             <ul class="nav__list">

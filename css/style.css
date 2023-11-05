@@ -28,6 +28,8 @@
 @import "./myPage/profile.css";
 @import "./myPage/myPageMenu.css";
 @import "./mypage/myPageBox.css";
+    /* 판매자 페이지 */
+        @import "./myPage/sellerPageBox.css";
 
 
 

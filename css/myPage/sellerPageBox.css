@@ -1,0 +1,85 @@
+.sellerPage_box{
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sellerBox{
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;    
+}
+    .seller_register{
+        width: 100%;
+        height: 15%;
+
+        font-size: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* background-color: tomato; */
+    }
+    .sellerBox-div{
+        width: 100%;
+        height: 85%;
+        /* background-color: orange; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        box-sizing: border-box;
+    }
+        .sellerBox-box{
+           width: 80%;
+           height: 60px;
+           /* background-color: yellow;  */
+            margin-bottom: 10px;
+
+           display: flex;
+           justify-content: space-around;
+        }
+            .sellerBox-main{
+                width: 20%;
+                height: 100%;
+                border-radius: 10px;
+
+                background-color: var(--second-color);
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 23px;
+            }
+                .seller_submit{
+                    margin-top: 20px;
+                    background-color: var(--third-color);
+                    color: white;
+                }
+
+            .sellerBox-cont{
+                width: 60%;
+                height: 100%;
+                border-radius: 10px;
+
+                background-color: white;
+            }
+            .sellerBox-cont > input{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                text-align: center;
+                border: 1px solid rgb(195, 195, 195);
+            }
+            .sellerBox-cont > select{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                text-align: center;
+                border: 1px solid rgb(195, 195, 195);
+            }

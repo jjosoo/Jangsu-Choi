@@ -1,10 +1,12 @@
 .CsBox__table-button{
     margin-top: 30px;
-    width: 90%;
+    width: 30%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    /* background-color: tomato; */
 }
     .CsBox__button-li > a > span{
         padding: 10px 15px;
@@ -12,4 +14,27 @@
         border-radius: 10px;
         color: white;
     }
+        #Csbox_left{
+            background-color: rgb(247, 247, 247);
+            color: rgb(176, 176, 176);
+        }
+        #Csbox_right{
+            background-color: rgb(247, 247, 247);
+            color: rgb(176, 176, 176);
+        }
+
+.submit_Button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(176, 176, 176);
+    border-radius: 10px;
+    position: relative;
+    left:800px;
+    top: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
