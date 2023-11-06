@@ -23,6 +23,8 @@
 @import "./food/select.css";
 @import "./food/sortBox.css";
 @import "./food/SaleProduct.css";
+    /* 음식 상세페이지 */
+    @import "./food/Product_detail.css";
 
 /* myPage : 마이페이지 */
 @import "./myPage/profile.css";
