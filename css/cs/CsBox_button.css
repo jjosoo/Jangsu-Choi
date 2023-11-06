@@ -1,12 +1,13 @@
 .CsBox__table-button{
     margin-top: 30px;
-    width: 30%;
+    width: 1000px;
+    height: 50px;
 
     display: flex;
     justify-content: center;
     align-items: center;
     
-    /* background-color: tomato; */
+    background-color: tomato;
 }
     .CsBox__button-li > a > span{
         padding: 10px 15px;
