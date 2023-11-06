@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="sellerBox-cont">
-                  <select name="seller_select" id="seller_select">
+                  <select name="pro_code" id="seller_select">
                     <option value="">근력운동</option>
                     <option value="">체지방감소</option>
                     <option value="">키토</option>
@@ -126,7 +126,19 @@
                 </div>
 
                 <div class="sellerBox-cont">
-                  <input type="text" name="상품명" placeholder="상품명을 입력하세요" required>
+                  <input type="text" name="pro_name" placeholder="상품명을 입력하세요" required>
+                </div>
+              </div>
+              
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품이미지 -->
+                <div class="sellerBox-main">
+                  상품이미지
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="file" name="pro_img" placeholder="상품 이미지를 등록하세요" required>
                 </div>
               </div>
 
@@ -138,22 +150,11 @@
                 </div>
 
                 <div class="sellerBox-cont">
-                  <input type="text" name="상품가격" placeholder="상품가격을 입력하세요" required>
+                  <input type="text" name="pro_price" placeholder="상품가격을 입력하세요" required>
                 </div>
               </div>
 
               <!-- 타이틀 & input 틀 -->
-              <div class="sellerBox-box">
-                <!-- 상품이미지 -->
-                <div class="sellerBox-main">
-                  상품이미지
-                </div>
-
-                <div class="sellerBox-cont">
-                  <input type="file" name="상품이미지" placeholder="상품 이미지를 등록하세요" required>
-                </div>
-              </div>
-
               <div class="sellerBox-box">
                 <!-- 상품 설명 -->
                 <div class="sellerBox-main">
@@ -161,12 +162,23 @@
                 </div>
 
                 <div class="sellerBox-cont">
-                  <input type="text" name="상품 설명" placeholder="상품 설명을 입력하세요" required>
+                  <input type="text" name="pro_info" placeholder="상품 설명을 입력하세요" required>
+                </div>
+              </div>
+
+              <!-- 타이틀 & input 틀 -->
+              <div class="sellerBox-box">
+                <!-- 상품 설명 -->
+                <div class="sellerBox-main">
+                  상품 상세 이미지
+                </div>
+
+                <div class="sellerBox-cont">
+                  <input type="file" name="pro_info_img" placeholder="상품 이미지를 등록하세요" required>
                 </div>
               </div>
 
               <div class="sellerBox-box">
-                <!-- 상품 설명 -->
                 <div class="sellerBox-main seller_submit">
                   <input type="submit">
                 </div>

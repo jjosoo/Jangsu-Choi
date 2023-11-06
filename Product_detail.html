@@ -40,16 +40,79 @@
           <!-- 식단 상품(재고) : 상품명,상품정가 -->
           <div class="pro_name" name="pro_name">샐러드</div>
           <div class="pro_price" name="pro_price">8,000원</div>
-          
-          
-          <!-- 가격
-          수량
-          총 상품 금액
-          굼하기 버튼
-          찜하기 장바구니 버튼 -->
+
+          <div class="ProductNumber">
+            <div class="ProductNumber-title">
+              <p>수량</p>
+            </div>
+
+            <div class="ProductNumber-main">
+              <input type="number" class="join_pro_stock" name="join_pro_stock">
+              <div class="join_pro_price" name="join_pro_price">총금액은 얼마일까?</div>
+            </div>
+          </div>
+          <!-- 연결테이블 : 상품수량, 해당주문금액-->
+
+          <!-- 결제버튼  -->
+          <button class="ProductPay"><a href="#">결제</a></button>
+
+          <!-- 찜하기 / 결제버튼  -->
+          <div class="ProductButton-div">
+            <button class="ProductButton"><a href="#">장바구니</a></button>
+            <button class="ProductButton"><i class="fa-regular fa-heart"></i></button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 상세 이미지 & 리뷰 & QnA -->
+      <div class="DetailMainBox-sub">
+
+        <!-- 타이틀 박스 -->
+        <div class="DetailMainBox-sub_main">
+          <div class="DetailMainBox-sub_main-box">
+            상세이미지
+          </div>
+          <div class="DetailMainBox-sub_main-box">
+            리뷰
+          </div>
+          <div class="DetailMainBox-sub_main-box">
+            QnA
+          </div>
+        </div>
+
+        <!-- 식품-상품: 상품 설명 이미지 -->
+        <div class="DetailMainBox-sub_img">
+          <img src="" alt="우리동네최장수" name="pro_info_img">
+        </div>
+
+        <!-- 상품 리뷰 -->
+        <div class="DetailMainBox-sub_review">
+
+          <div class="DetailMainBox-sub_reviewBox">
+            <!-- 리뷰 별점 -->
+            <div class="pro_review_star">
+              <img src="" alt="우리동네최장수" name="pro_review_star">
+            </div>
+
+            <!-- 리뷰 내용 -->
+            <div class="pro_review-contnet" name="pro_review-contnet">리뷰내용</div>
+
+            <!-- 생성일 -->
+            <div class="pro_createdate" name="pro_createdate">2023.11.07</div>
+          </div>
+
+        </div>
+
+        <!-- QnA -->
+        <div class="DetailMainBox-sub_QnA">
+          <div class="DetailMainBox-sub_reviewBox">
+
+          </div>
         </div>
       </div>
     </form>
   <!-- </div> -->
+  <script src="https://kit.fontawesome.com/342c63e198.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -8,11 +8,16 @@
     width: 95%;
     height: 90%;
     background-color: white;
-    border-radius: 10px;    
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
     .seller_register{
         width: 100%;
-        height: 15%;
+        height: 10%;
 
         font-size: 30px;
 
@@ -54,10 +59,10 @@
                 justify-content: center;
                 align-items: center;
 
-                font-size: 23px;
+                font-size: 20px;
             }
                 .seller_submit{
-                    margin-top: 20px;
+                    margin-top: 15px;
                     background-color: var(--third-color);
                     color: white;
                 }

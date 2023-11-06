@@ -44,17 +44,18 @@
 
       display: flex;
       flex-direction: column;
+      justify-content: center;
 
       /* padding : 위 오른쪽 아래 왼쪽 */
       padding: 30px 50px 30px 0px;
 
-      background-color: cadetblue;
+      /* background-color: cadetblue; */
     } 
       /* 상품명 */
       .pro_name{
         width: 100%;
         height: 40px;
-        background-color: tomato;
+        /* background-color: tomato; */
 
         display: flex;
         justify-content: center;
@@ -75,5 +76,179 @@
 
         font-size: 20px;
         border-bottom: 1px solid rgb(207, 207, 207);
-        background-color: teal;
+        /* background-color: teal; */
       }
+
+  /* 수량 틀 */
+  .ProductNumber{
+    margin-top: 20px;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(224, 224, 224);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .ProductNumber-title{
+      width: 95%;
+      height: 40%;
+
+      box-sizing: border-box;
+
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid white;
+      /* background-color: tomato; */
+    }
+    .ProductNumber-main{
+      width: 95%;
+      height: 45%;
+      box-sizing: border-box;
+      padding: 0px 10px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      /* background-color: pink; */
+    }
+      /* input 스타일 다시 만들거야 학교에서 해야할것같아 집 느려.. */
+      .ProductNumber-main > input{
+        border: 1px solid black;
+      }
+
+/* 결제버튼 */
+.ProductPay{
+  margin: 20px 0px 20px 0px;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: var(--third-color);
+}
+  .ProductPay > a{
+    color: white;
+  }
+
+/* 찜하기 / 결제 박스 */
+.ProductButton-div{
+  width: 100%;
+  height: 45px;
+  /* background-color: orange; */
+
+  display: flex;
+  justify-content: space-evenly;
+}
+  .ProductButton{
+    width: 30%;
+    height: 100%;
+
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+  }
+
+/* 상세 이미지 & 리뷰 & QnA */
+.DetailMainBox-sub{
+  margin-top: 50px;
+
+  width: 50%;
+  height: auto;
+}
+  /* 타이틀 박스 */
+  .DetailMainBox-sub_main{
+    width: 100%;
+    height: 50px;
+    /* background-color: teal; */
+
+    display: flex;
+  }
+    .DetailMainBox-sub_main-box{
+      width: 33.3333%;
+      height: 100%;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      border-bottom: 3px solid rgb(207, 207, 207);
+    }
+      .DetailMainBox-sub_main-box:first-child{
+        border-bottom: 3px solid var(--second-color);
+      }
+
+  /* 식품-상품: 상품 설명 이미지 */
+  .DetailMainBox-sub_img{
+    margin-top: 30px;
+
+    width: 100%;
+    height: min-content;
+
+    /* background-color: tomato; */
+  }
+  
+  /* 리뷰 */
+  .DetailMainBox-sub_review{
+    margin-top: 30px;
+
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: orange;
+  }
+    /* 리뷰 contents 틀 */
+   .DetailMainBox-sub_reviewBox{
+      width: 95%;
+      height: 50px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border-bottom: 1px solid rgb(207, 207, 207);
+      /* background-color: tomato; */
+   }
+    /* 리뷰 별점 */
+    .pro_review_star{
+      width: 15%;
+      height: 70%;
+      background-color: teal;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      .pro_review_star > img{
+        width: 100%;
+        height: 100%;
+      }
+    /* 리뷰내용 */
+    .pro_review-contnet{
+      width: 64%;
+      height: 70%;
+      background-color: white;
+
+      display: flex;
+      align-items: center;
+    }
+    .pro_createdate{
+      width: 13%;
+      height: 70%;
+      background-color: rgb(149, 149, 149);
+
+      display: flex;
+      align-items: center;
+      justify-content: right;
+    }
+
+  .DetailMainBox-sub_QnA{
+    margin-top: 30px;
+
+    width: 100%;
+    height: min-content;
+
+    background-color: pink;
+  }

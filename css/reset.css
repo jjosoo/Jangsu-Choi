@@ -79,6 +79,19 @@ input {
     appearance: none;
 }
 
+/* input type="number" 스타일 예외 */
+input[type="number"] {
+  margin: initial;
+  padding: initial;
+  border: initial;
+  outline: initial;
+  background-color: initial;
+  box-sizing: initial;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
 /* checkbox 스타일 예외 */
 input[type="checkbox"] {
     margin: initial;
@@ -91,5 +104,3 @@ input[type="checkbox"] {
     -moz-appearance: checkbox;    /* Firefox */
     appearance: checkbox;         /* Standard syntax */
 }
-
-
